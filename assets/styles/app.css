@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#task-input {
+  padding: 0.5em;
+  font-size: 1em;
+  margin-right: 0.5em;
+}
+
+#add-task-btn {
+  padding: 0.5em;
+  font-size: 1em;
+}
+
+.task {
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-between;
+}
+
+.task:hover {
+  background-color: #f0f0f0;
+}
